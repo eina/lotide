@@ -13,11 +13,11 @@ const eqArrays = function(arr1, arr2) {
 
 const assertArraysEqual = function(arr1, arr2) {
   if (eqArrays(arr1, arr2)) {
-    console.log(`✅✅✅ Yay, these are the same arrays!`) 
+    console.log(`✅✅✅ Yay, these are the same arrays!`);
   } else {
-    console.log(`🛑🛑🛑 Aww, these are NOT the same arrays.`)
+    console.log(`🛑🛑🛑 Aww, these are NOT the same arrays.`);
   }
-}
+};
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]); // => PASS
 
