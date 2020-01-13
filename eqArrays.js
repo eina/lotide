@@ -21,15 +21,4 @@ const eqArrays = function(arr1, arr2) {
   }
 };
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => PASS
-assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => FAIL
-
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => PASS
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // => FAIL
-
-assertEqual(eqArrays([[2, 3], [4]], [[2, 3], [4]]) , true) // => PASS
-
-assertEqual(eqArrays([[2, 3], [4]], [[2, 3], [4, 5]]), false) // => FAIL
-assertEqual(eqArrays([[2, 3], [4]], [[2, 3], 4]), false) // => FAIL
-
 module.exports = eqArrays;
