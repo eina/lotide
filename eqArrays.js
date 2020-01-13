@@ -31,3 +31,5 @@ assertEqual(eqArrays([[2, 3], [4]], [[2, 3], [4]]) , true) // => PASS
 
 assertEqual(eqArrays([[2, 3], [4]], [[2, 3], [4, 5]]), false) // => FAIL
 assertEqual(eqArrays([[2, 3], [4]], [[2, 3], 4]), false) // => FAIL
+
+module.exports = eqArrays;
