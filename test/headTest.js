@@ -1,1 +1,1 @@
-const assertEqual = require('../assertEqual');
+const test = require('../test');
