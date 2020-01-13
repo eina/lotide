@@ -1,10 +1,9 @@
+const assertEqual = require('./assertEqual');
+
 const tail = function(array) {
   return array.slice(1);
 };
 
-const assertEqual = function(actual, expected) {
-  return actual === expected ? console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-};
 
 /** Test Case: Check if original array is non-mutated */
 /** Test Case: Check if result is correct */
@@ -29,3 +28,5 @@ console.log('this is the result', result);
 console.log('-----------------------');
 assertEqual(one.length, 0);
 // assertEqual(result[0], undefined);
+
+module.exports = tail;
