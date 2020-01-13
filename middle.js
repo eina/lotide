@@ -16,15 +16,16 @@ const middle = function(array) {
   }
 };
 
-// Single Value
-assertArraysEqual(middle([1]), []);
-assertArraysEqual(middle([1, 2]), []);
+// // Single Value
+// assertArraysEqual(middle([1]), []);
+// assertArraysEqual(middle([1, 2]), []);
 
-// Odd Number of Elements
-assertArraysEqual(middle([1, 2, 3]), [2]);
-assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
+// // Odd Number of Elements
+// assertArraysEqual(middle([1, 2, 3]), [2]);
+// assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
 
-// Even Number of Elements
-assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]);
-assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
+// // Even Number of Elements
+// assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]);
+// assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
 
+module.exports = middle;
