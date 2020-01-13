@@ -8,3 +8,4 @@ assertEqual('orange', 'orange');
 assertEqual('blue', 'purple');
 assertEqual(100, 50);
 
+module.exports = assertEqual;
