@@ -1,7 +1,8 @@
 {
-  "name": "lotide",
+  "name": "lotide",  
+  "email": "hi@eina.ca",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide Project for Lighthouse Labs Web Development Bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -18,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/thelittleblacksmith/lotide.git"
   },
-  "author": "",
+  "author": "thelittleblacksmith",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thelittleblacksmith/lotide/issues"
