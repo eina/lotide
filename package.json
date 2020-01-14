@@ -1,7 +1,7 @@
 {
   "name": "@thelittleblacksmith/lotide",  
   "email": "hi@eina.ca",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lotide Project for Lighthouse Labs Web Development Bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
