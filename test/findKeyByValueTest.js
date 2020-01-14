@@ -3,7 +3,7 @@ const findKeyByValue = require('../findKeyByValue');
 
 
 describe("#countOnly", () => {
-  it("should return 1 for Jason", () => {
+  it("should return dedicated", () => {
     const carlyRaeJepsenSongs = {
       dedicated: "Party for One",
       kiss: "Call Me Maybe",
@@ -12,7 +12,7 @@ describe("#countOnly", () => {
     assert.strictEqual(findKeyByValue(carlyRaeJepsenSongs, "Party for One"), "dedicated");    
   });
 
-  it('should return undefined for Karima', function () {
+  it('should return drama', function () {
     const bestTVShowsByGenre = {
       sci_fi: "The Expanse",
       comedy: "Brooklyn Nine-Nine",
